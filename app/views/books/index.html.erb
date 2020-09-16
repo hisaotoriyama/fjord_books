@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1> <%=t "title" %> </h1>
+<h1><%=t "title" %></h1>
  
 
 <table>
@@ -21,7 +21,7 @@
         <td><%= book.memo %></td>
         <td><%= link_to t("show") , book %></td>
         <td><%= link_to t("edit"), edit_book_path(book) %></td>
-        <td><%= link_to t("destroy"), book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t("destroy"), book, method: :delete, data: { confirm: t('Are you sure?') } %></td>
       </tr>
     <% end %>
   </tbody>

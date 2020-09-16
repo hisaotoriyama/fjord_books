@@ -20,6 +20,10 @@ ja:
     New Book: 本追加
     Show Book: 本詳細
     Editing Book: 編集
+    Updated: 更新しました
+    Destroyed: 削除しました
+    Created: 本を登録しました
+    Are you sure?: 削除していいですか？   
     errors:
         messages:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
